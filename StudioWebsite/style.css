@@ -1,0 +1,144 @@
+.bgimg{
+         background-image:url('studio.jpg');
+         background-size:100% 100%;
+         background-attachment:fixed;
+         width:100%;
+         height:660px;
+         
+       }
+.hearderset{
+        padding-top:260px;
+        box-sizing:border-box;
+    }
+.hearderset h2{
+           font-size:60px;
+           color:white;
+           font-weight:bold;
+     }
+.hearderset h1{
+            font-size:42px;
+            font-weight:bold;
+            color:white;
+      }
+          
+.ourservices{
+     padding:50px 0px 50px;
+     height:600px;
+     width:100%;
+     
+  }
+  .ourservices h1{
+      font-size:50px;
+   }
+   .rowsetting{
+     padding-top:75px;
+    // margin:100px 10px | important;
+   }
+    .rowsetting p{
+      padding:10px;
+      color:brown;
+     }
+    .imgsetting{
+     border-radius:50%;
+     height:80px;
+     width:80px;
+   }
+   .fa-lock
+   {
+       margin-top:22px;
+   }
+   .fa-desktop
+   {
+       margin-top:23px;
+    }
+    .fa-shopping-cart
+   {
+       margin-top:20px;
+   }
+
+.portfolio{
+   height:1000px;
+   width:100%;
+   padding:50px 10px 50px;
+ }
+.portfolio h2
+{
+    color:green;
+}
+.portfolio h1{
+   color:brown;
+   font-size:45px;
+ }
+.card{
+    margin-top:45px;
+    margin-right:1rem;
+ }
+.portfolio img:hover
+{
+   transform:scale(1.1);
+   cursor:zoom-in;
+}
+.portfolio img{
+   max-width:100%;
+   transition:transform .5s ease;
+}
+.ourteam{
+   height:550px;
+   width:100%;
+   padding:60px 0px 60px;
+}
+.ourteam h1{
+   color:brown;
+}
+.ourteam p{
+   color:purple;
+   font-size:19px;
+}
+.teamset{
+   margin-top:60px;
+}
+
+footer{
+ background-color:#40474e;
+ color:white;
+ padding:2rem 0rem 3rem;
+ width:100%;
+ height:300px;  
+}
+footer img{
+ height:4rem;
+ margin-left:1.5rem 0;
+}
+footer a{
+    color:white;
+}
+
+@media(min-width:992px){
+ 
+}
+@media(min-width:768px) and (max-width:991px){
+
+}
+@media(min-width:575px) and(max-width:767px){
+
+}
+@media(min-width:460px) and (max-width:574px){
+    .hearderset h2{
+            font-size:35px;
+            font-weight:bold;
+ }
+ .hearderset h1{
+            font-size:22px;
+            font-weight:bold;
+           }
+}
+@media(max-width:479px){
+.hearderset h2{
+            font-size:30px;
+            font-weight:bold;
+ }
+ .hearderset h1{
+            font-size:15px;
+            font-weight:bold;
+ }
+}
